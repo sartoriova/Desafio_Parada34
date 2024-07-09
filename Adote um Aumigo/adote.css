@@ -15,6 +15,11 @@
     /* margin-left: 350px; */
 }
 
+.main-adote #divTitulo #logo-proAnimal img {
+    width: 150px;
+    height: 150px;
+}
+
 #pSubtitulo {
     text-align: center;
 }
@@ -46,4 +51,31 @@
 
 .infoImportantes {
     font-weight: bold;
+}
+
+@media screen and (max-width: 710px) {
+    .main-adote #divTitulo {
+        margin-left: 20px;
+    }
+
+    #pTitulo {
+        font-size: 40px;
+    }
+
+    #pSubtitulo {
+        font-size: 20px;
+    }
+
+    .main-adote #divTitulo #logo-proAnimal {
+        margin-right: -35px;
+    }
+
+    .main-adote #divTitulo #logo-proAnimal img {
+        width: 110px;
+        height: 110px;
+    }
+
+    .main-adote #divContainer {
+        justify-content: center;
+    }
 }

@@ -6,13 +6,13 @@
 
 .main-adote #divTitulo {
     display: flex;
-    margin-left: 350px;
+    justify-content: center;
+    /* margin-left: 350px; */
     gap: 50px;
 }
 
 .main-adote #divTitulo #logo-proAnimal {
     margin-top: 30px;
-    /* margin-left: 350px; */
 }
 
 .main-adote #divTitulo #logo-proAnimal img {
@@ -55,7 +55,7 @@
 
 @media screen and (max-width: 710px) {
     .main-adote #divTitulo {
-        margin-left: 20px;
+        /* margin-left: 20px; */
     }
 
     #pTitulo {

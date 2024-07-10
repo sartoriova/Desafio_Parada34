@@ -20,3 +20,13 @@ main form #container .mb-3 {
 main form .textarea {
     width: 725px;
 }
+
+@media screen and (max-width: 710px) {
+    .main-pagInicial img {
+        height: 206px;
+    }
+
+    main form .textarea {
+        width: 325px;
+    }
+}

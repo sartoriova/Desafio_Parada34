@@ -1,4 +1,4 @@
-main form .mb-3 {
+.main-formAdocao form .mb-3 {
     width: 350px;
     text-align: left;
     margin-left: 395px;
@@ -8,25 +8,41 @@ main form .mb-3 {
     margin-left: 0px;
 }
 
-main form #container {
+.main-formAdocao form #container {
     display: flex;
     justify-content: center;
 }
 
-main form #container .mb-3 {
+.main-formAdocao form #container .mb-3 {
     margin-left: 0px;
 }
 
-main form .textarea {
+.main-formAdocao form .textarea {
     width: 725px;
-}
+} 
 
 @media screen and (max-width: 710px) {
-    .main-pagInicial img {
+    .main-formAdocao img {
         height: 206px;
     }
 
-    main form .textarea {
+    .main-formAdocao form .textarea {
         width: 325px;
+    }
+
+    .main-formAdocao {
+        justify-content: left;
+    }
+
+    /* .main-formAdocao img {
+        margin-left: -250px;
+    } */
+
+    /* .main-formAdocao #pTitulo {
+        margin-left: -250px;
+    } */
+
+    .main-formAdocao form #container {
+        display: block;
     }
 }

@@ -1,0 +1,13 @@
+@media screen and (max-width: 710px) {
+    .main-sejaVoluntario img {
+        height: 217px;
+    }
+
+    .main-sejaVoluntario form {
+        margin-left: 75px;
+    }
+
+    .main-formAdocao form .mb-3 {
+        margin-left: 0px;
+    }
+}

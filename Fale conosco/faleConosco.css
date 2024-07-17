@@ -1,0 +1,13 @@
+@media screen and (max-width: 710px) {
+    .main-faleConosco img {
+        height: 155px;
+    }
+
+    .main-faleConosco form {
+        margin-left: 75px;
+    }
+
+    .main-formAdocao form .mb-3 {
+        margin-left: 0px;
+    }
+}

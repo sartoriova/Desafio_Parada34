@@ -11,7 +11,7 @@ icone_menuHamburguer.addEventListener("click", function () {
 
 window.addEventListener("resize", function () {
     let width = window.innerWidth;
-    if (width > 1505) {
+    if (width > 1060) {
         novoMenu.style.display = "none";
     }
 });

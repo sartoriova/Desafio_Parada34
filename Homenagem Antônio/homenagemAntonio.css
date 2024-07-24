@@ -1,6 +1,9 @@
-#pTexto p {
-    /* color: #808080; */
+.main-homenagemAntonio #container #pTexto p {
     font-style: italic;
+}
+
+.main-homenagemAntonio #container #pTexto span {
+    font-weight: bold;
 }
 
 @media screen and (max-width: 710px) {

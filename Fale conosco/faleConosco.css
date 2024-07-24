@@ -1,3 +1,11 @@
+.main-faleConosco {
+    display: block;
+}
+
+.main-faleConosco form button {
+    margin-right: 660px;
+}
+
 @media screen and (max-width: 710px) {
     .main-faleConosco img {
         height: 155px;

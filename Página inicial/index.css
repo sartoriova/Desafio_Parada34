@@ -47,7 +47,7 @@ a {
     transition: font-size 1s;
 }
 
-.header #menu ul li a:hover{
+.header #menu ul li a:hover {
     color: #87cefa;
     font-size: 18px;
 }
@@ -72,24 +72,20 @@ a {
     cursor: pointer;
 }
 
-/* Novo menu */
-#novoMenu {
+/* Menu Hamburguer */
+#menuHamburguer {
     background-color: #000000;
     color: #ffffff;
     display: none;
     text-align: center;
 }
 
-#novoMenu ul li {
+#menuHamburguer ul li {
     padding: 20px;
 }
 
-#novoMenu ul li a {
+#menuHamburguer ul li a {
     color: #ffffff;
-}
-
-#novoMenu ul li .dropdown .dropdown-content {
-    text-align: left;
 }
 
 /* Main */
@@ -117,18 +113,24 @@ a {
     margin-bottom: 10px;
 }
 
-#pAncora {
-    transition: font-size 1s;
-}
-
-#pAncora:hover {
-    font-size: 25px;
-}
-
-.main-pagInicial #pTexto {
+.main-pagInicial #container #pTexto {
     font-size: 23px;
     text-align: justify;
     width: 610px;
+}
+
+.main-pagInicial #container #pTexto #pAncora a {
+    transition: font-size 1s;
+    color: #000000;
+    text-decoration: underline;
+}
+
+.main-pagInicial #container #pTexto #pAncora a:hover {
+    font-size: 25px;
+}
+
+.main-pagInicial #container #pTexto span {
+    font-weight: bold;
 }
 
 /* Footer */
@@ -151,10 +153,6 @@ a {
     margin-bottom: 0px;
 }
 
-.footer p a {
-    text-decoration: none;
-}
-
 /* Media queries */
 @media screen and (max-width: 1060px) {
     .header #div-menuHamburguer {
@@ -172,11 +170,11 @@ a {
         height: 232.5px;
     }
 
-    .main-pagInicial #pTitulo {
+    .main-pagInicial #container #pTitulo {
         font-size: 50px;
     }
 
-    .main-pagInicial #pTexto {
+    .main-pagInicial #container #pTexto {
         width: 100%;
         padding: 0px 30px 0px 30px;
     }

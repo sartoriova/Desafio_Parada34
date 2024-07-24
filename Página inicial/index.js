@@ -1,17 +1,17 @@
-const icone_menuHamburguer = document.querySelector(".icone-menuHamburguer");
-const novoMenu = document.querySelector("#novoMenu");
+const icone_menuHamburguer = document.querySelector(".i-menuHamburguer");
+const menuHamburguer = document.querySelector("#menuHamburguer");
 
 icone_menuHamburguer.addEventListener("click", function () {
-    if (novoMenu.style.display == "block") {
-        novoMenu.style.display = "none"
+    if (menuHamburguer.style.display == "block") {
+        menuHamburguer.style.display = "none"
     } else {
-        novoMenu.style.display = "block"
+        menuHamburguer.style.display = "block"
     }
 });
 
 window.addEventListener("resize", function () {
     let width = window.innerWidth;
     if (width > 1060) {
-        novoMenu.style.display = "none";
+        menuHamburguer.style.display = "none";
     }
 });

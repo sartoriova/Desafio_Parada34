@@ -19,7 +19,16 @@
 
 .main-formAdocao form .textarea {
     width: 725px;
-} 
+}
+
+.main-formAdocao form .textarea #pObservacao {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.main-formAdocao #formAdocao button {
+    display: flex;
+}
 
 @media screen and (max-width: 710px) {
     .main-formAdocao img {
@@ -27,7 +36,7 @@
     }
 
     .main-formAdocao form .textarea {
-        width: 325px;
+        width: 350px;
     }
 
     .main-formAdocao form #container {
@@ -36,15 +45,8 @@
 
     .main-formAdocao form {
         width: 100vw;
-        /* margin-left: 150px; */
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        margin-left: 150px;
     }
-
-    /* body {
-        overflow-x: hidden;
-    } */
 
     .main-formAdocao #pTitulo {
         font-size: 45px;

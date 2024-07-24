@@ -1,3 +1,11 @@
+.main-sejaVoluntario {
+    display: block;
+}
+
+.main-sejaVoluntario form button {
+    margin-right: 660px;
+}
+
 @media screen and (max-width: 710px) {
     .main-sejaVoluntario img {
         height: 217px;

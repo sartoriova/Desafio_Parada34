@@ -1,21 +1,20 @@
-.main-adote #divTitulo {
+.mainAdote #container #divTitulo {
     display: flex;
     justify-content: center;
-    /* margin-left: 350px; */
     gap: 50px;
 }
 
-.main-adote #divTitulo #logo-proAnimal {
+.mainAdote #container #divTitulo #logo-proAnimal {
     margin-top: 30px;
 }
 
-.main-adote #divTitulo #logo-proAnimal img {
+.mainAdote #container #divTitulo #logo-proAnimal img {
     width: 150px;
     height: 150px;
     transition: width 1s, height 1s;
 }
 
-.main-adote #divTitulo #logo-proAnimal img:hover {
+.mainAdote #container #divTitulo #logo-proAnimal img:hover {
     width: 170px;
     height: 170px;
 }
@@ -24,14 +23,14 @@
     text-align: center;
 }
 
-.main-adote #divContainer {
+.mainAdote #container #containerCard {
     display: flex;
     flex-wrap: wrap;
     margin: 50px;
     justify-content: space-between;
 }
 
-.main-adote #divContainer .card {
+.mainAdote #container #containerCard .card {
     margin-bottom: 50px;
     width: 18rem;
     transition: width 1s, box-shadow 1s;
@@ -39,37 +38,37 @@
     color: black;
 }
 
-.main-adote #divContainer .card .card-body {
-    height: 300px;
-}
-
-.main-adote #divContainer .card:hover {
+.mainAdote #container #containerCard .card:hover {
     width: 20rem;
     box-shadow: 0px 10px 30px 0px #87cefa;
 }
 
-.main-adote #divContainer .card-ultimaLinha {
+.mainAdote #container #containerCard .ultimoCard {
     margin-bottom: 0px;
 }
 
-.main-adote #divContainer .card .card-body .card-title {
+.mainAdote #container #containerCard .card img {
+    height: 346.4px;
+}
+
+.mainAdote #container #containerCard .card .card-body {
+    height: 300px;
+}
+
+.mainAdote #container #containerCard .card .card-body .card-title {
     font-weight: bold;
     color: #87cefa;
 }
 
-.main-adote #divContainer .card img {
-    height: 346.4px;
-}
-
-.infoImportantes {
+.mainAdote #container #containerCard .card .card-body .p-infoImportantes {
     font-weight: bold;
 }
 
-@media screen and (max-width: 710px) {
-    .main-adote #divTitulo {
-        /* margin-left: 20px; */
-    }
+.mainAdote #container #containerCard .card .card-body span {
+    font-style: italic;
+}
 
+@media screen and (max-width: 710px) {
     #pTitulo {
         font-size: 40px;
     }
@@ -78,16 +77,21 @@
         font-size: 20px;
     }
 
-    .main-adote #divTitulo #logo-proAnimal {
+    .mainAdote #container #divTitulo #logo-proAnimal {
         margin-right: -35px;
     }
 
-    .main-adote #divTitulo #logo-proAnimal img {
+    .mainAdote #container #divTitulo #logo-proAnimal img {
         width: 110px;
         height: 110px;
     }
 
-    .main-adote #divContainer {
+    .mainAdote #container #divTitulo #logo-proAnimal img:hover {
+        width: 130px;
+        height: 130px;
+    }
+
+    .mainAdote #container #containerCard {
         justify-content: center;
     }
 }

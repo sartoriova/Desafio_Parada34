@@ -36,12 +36,15 @@
 
     .main-formAdocao form {
         width: 100vw;
-        margin-left: 150px;
+        /* margin-left: 150px; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
-    body {
+    /* body {
         overflow-x: hidden;
-    }
+    } */
 
     .main-formAdocao #pTitulo {
         font-size: 45px;

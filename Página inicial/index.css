@@ -12,43 +12,6 @@
     font-style: normal;
 }
 
-/* Dropdown */
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 390px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-    padding: 15px;
-    color: #000000;
-}
-
-.dropdown .facaDoacao {
-    min-width: 320px;
-}
-
-.dropdown .facaDoacao p {
-    margin-bottom: 0px;
-}
-
-.dropdown .pDropdown {
-    margin: 0px;
-}
-
-.dropdown .horarioFuncionamento .pSabado {
-    margin-bottom: 0px;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
 /* Header */
 .header {
     background-color: #000000;
@@ -79,12 +42,14 @@ a {
     margin-left: 14px;
 }
 
-.header #menu ul #li-pagInicial {
-    /* margin-left: 60px; */
-}
-
 .header #menu ul li a {
     color: #ffffff;
+    transition: font-size 1s;
+}
+
+.header #menu ul li a:hover{
+    color: #87cefa;
+    font-size: 18px;
 }
 
 .header #menu ul li i {
@@ -152,6 +117,14 @@ a {
     margin-bottom: 10px;
 }
 
+#pAncora {
+    transition: font-size 1s;
+}
+
+#pAncora:hover {
+    font-size: 25px;
+}
+
 .main-pagInicial #pTexto {
     font-size: 23px;
     text-align: justify;
@@ -170,6 +143,7 @@ a {
 .footer i {
     font-size: 30px;
     margin-left: 30px;
+    cursor: pointer;
 }
 
 .footer p {

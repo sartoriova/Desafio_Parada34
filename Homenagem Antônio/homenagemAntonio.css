@@ -1,0 +1,11 @@
+#pTexto p {
+    /* color: #808080; */
+    font-style: italic;
+}
+
+@media screen and (max-width: 710px) {
+    .main-pagInicial img {
+        width: 310px;
+        height: 387px;
+    }
+}
